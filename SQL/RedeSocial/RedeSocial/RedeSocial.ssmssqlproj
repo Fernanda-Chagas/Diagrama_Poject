@@ -19,11 +19,17 @@
     </LogicalFolder>
     <LogicalFolder Name="Consultas" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="db_RedeSocial.sql">
+        <FileNode Name="Script DDL.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>db_RedeSocial.sql</FullPath>
+          <FullPath>Script DDL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Script DML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Script DML.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

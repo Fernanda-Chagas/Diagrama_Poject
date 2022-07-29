@@ -1,8 +1,4 @@
--- DML (CRUD)
--- SELECT
--- INSERT
--- UPDATE
--- DELETE
+
 
 
 CREATE DATABASE db_classificados;
@@ -14,7 +10,7 @@ CREATE TABLE tb_usuarios(
 	Nome VARCHAR(45) NOT NULL,
 	Usuario VARCHAR(45) NOT NULL,
 	Senha VARCHAR(100) NOT NULL,
-	Pessoa VARCHAR(100) NOT NULL,
+	Pessoa VARCHAR(100) NOT NULL CHECK (Pessoa IN ('FIS', 'JURI')),
 	Url_Imagem VARCHAR(100) NOT NULL
 );
 
